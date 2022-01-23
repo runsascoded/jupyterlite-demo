@@ -1,0 +1,31 @@
+{
+  "jupyter-config-data": {
+    "appName": "JupyterLite",
+    "appUrl": "./lab",
+    "appVersion": "0.1.0-alpha.20",
+    "baseUrl": "./",
+    "faviconUrl": "./lab/favicon.ico",
+    "federated_extensions": [
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.636f4a9dd32e899d40bb.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.722ef6c4bed73383b578.js",
+        "mimeExtension": "./mimeExtension",
+        "name": "jupyterlab-plotly"
+      }
+    ],
+    "fullLabextensionsUrl": "./lab/extensions",
+    "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
+    "fullStaticUrl": "./lab/build",
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "settingsUrl": "./lab/build/schemas",
+    "themesUrl": "./lab/build/themes"
+  },
+  "jupyter-lite-schema-version": 0
+}
